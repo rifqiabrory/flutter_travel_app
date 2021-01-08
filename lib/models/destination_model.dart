@@ -42,6 +42,25 @@ List<Activity> activities = [
   ),
 ];
 
+List<Activity> activities2 = [
+  Activity(
+    imageUrl: 'assets/images/stmarksbasilica.jpg',
+    name: 'St. Mark\'s Basilica',
+    type: 'Sightseeing Tour',
+    startTimes: ['9:00 am', '11:00 am'],
+    rating: 5,
+    price: 30,
+  ),
+  Activity(
+    imageUrl: 'assets/images/gondola.jpg',
+    name: 'Walking Tour and Gonadola Ride',
+    type: 'Sightseeing Tour',
+    startTimes: ['11:00 pm', '1:00 pm'],
+    rating: 4,
+    price: 210,
+  ),
+];
+
 List<Destination> destinations = [
   Destination(
     imageUrl: 'assets/images/venice.jpg',
@@ -55,7 +74,7 @@ List<Destination> destinations = [
     city: 'Paris',
     country: 'France',
     description: 'Visit Paris for an amazing and unforgettable adventure.',
-    activities: activities,
+    activities: activities2,
   ),
   Destination(
     imageUrl: 'assets/images/newdelhi.jpg',
